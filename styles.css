@@ -27,6 +27,17 @@ nav {
   flex-wrap: wrap;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 60px;
+  border-radius: 50%;
+}
+
 /* HERO */
 section {
   padding: 4rem 2rem;
