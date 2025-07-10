@@ -122,21 +122,21 @@ footer {
   flex: 1 1 200px;
   max-width: 250px;
   text-align: left;
-  color: #000;
+  color: white;
 }
 
 .footer-info-item strong {
   display: block;
   margin-bottom: 5px;
   font-size: 16px;
-  color: black;
+  color: white;
 }
 
 .footer-info-item p,
 .footer-info-item a {
   margin: 0;
   font-size: 14px;
-  color: #000000;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -150,7 +150,7 @@ footer {
   border-top: 1px solid black;
   padding-top: 10px;
   font-size: 13px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -330,12 +330,14 @@ footer {
   }
 
   .footer-container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 20px;
   }
 
   .footer-info-item {
     max-width: 100%;
     text-align: center;
+    margin: 4px 0;
   }
 }
