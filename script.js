@@ -68,7 +68,7 @@ window.onload = () => {
 // whatsapp logic //
 
 function openWhatsApp() {
-  const number = "917032653963";
+  const number = "917989195689";
   const message = "Hello, I want more info!";
   const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
